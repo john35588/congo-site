@@ -26,6 +26,15 @@
   weight = 30
 
 [[main]]
+  name = "GitHub"
+  url = "https://github.com/john35588/congo-site"
+  weight = 31
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]

@@ -3,22 +3,22 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Congo"
+title = "john35588"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "My awesome website"
 
 [params.author]
-  name = "John"
-  # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
+  name = "john35588"
+  image = "img/author.jpg"
+  headline = "I'll probably think of something cool to put here later"
+  bio = "A little bit about you"
+  links = [
+    { email = "mailto:jcwendel100@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -30,7 +30,8 @@ title = "Congo"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/username" },
+    { github = "https://github.com/john35588" },
+    { thingiverse = "https://www.thingiverse.com/John35588" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
@@ -39,7 +40,7 @@ title = "Congo"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { kofi = "https://ko-fi.com/username" },
-  #   { lastfm = "https://lastfm.com/user/username" },
+    { lastfm = "https://www.last.fm/user/john35588" },
   #   { linkedin = "https://linkedin.com/in/username" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
@@ -64,4 +65,4 @@ title = "Congo"
   #   { x-twitter = "https://twitter.com/username" },
   #   { youtube = "https://youtube.com/username" },
   #   { xing = "https://xing.com/profile/username" },
-  # ]
+  ]
