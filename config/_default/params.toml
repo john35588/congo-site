@@ -21,8 +21,8 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "img/logo.jpg"
-  # logoDark = "img/dark-logo.jpg"
+  logo = "img/logo128.png"
+  # logoDark = "img/dark-logo.png"
   showTitle = true
 
 [footer]
@@ -31,7 +31,7 @@ fingerprintAlgorithm = "sha256"
   showAppearanceSwitcher = true
   showScrollToTop = true
 
-[homepage] # Originally on page, probably change back later.
+[homepage]
   layout = "profile" # valid options: page, profile, custom
   showRecent = true
   recentLimit = 5
