@@ -1,0 +1,1049 @@
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="false"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Building My First FPV Drone &middot; john35588</title>
+    <meta name="title" content="Building My First FPV Drone &middot; john35588" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:1313/css/main.bundle.min.0f028ba75a858b9f7c1d3385287158ddfd26a57d8a4e9a83fd33b7d30d8fb2ae.css"
+    integrity="sha256-DwKLp1qFi598HTOFKHFY3f0mpX2KTpqD/TO30w2Psq4="
+  />
+  
+    
+    
+    
+  
+  
+  
+  
+    
+    
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="http://localhost:1313/js/main.bundle.min.487416fa89a6c9696096b1986f9c75d4f2a79d24cd917bb4ccfd939315fbb1f6.js"
+      integrity="sha256-SHQW&#43;ommyWlglrGYb5x11PKnnSTNkXu0zP2TkxX7sfY="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      My experience building my first FPV drone.
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="http://localhost:1313/posts/first-fpv-drone/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/posts/first-fpv-drone/">
+  <meta property="og:site_name" content="john35588">
+  <meta property="og:title" content="Building My First FPV Drone">
+  <meta property="og:description" content="My experience building my first FPV drone.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-22T00:00:00+00:00">
+    <meta property="article:tag" content="FPV">
+    <meta property="article:tag" content="Drone">
+    <meta property="article:tag" content="DIY">
+    <meta property="article:tag" content="Hobby">
+    <meta property="article:tag" content="Betaflight">
+    <meta property="article:tag" content="Analog">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building My First FPV Drone">
+  <meta name="twitter:description" content="My experience building my first FPV drone.">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Building My First FPV Drone",
+    "headline": "Building My First FPV Drone",
+    "description": "My experience building my first FPV drone.",
+    "abstract": "In this post, I share my journey of building my first FPV drone, including the components I chose, the assembly process, and the challenges I faced along the way.",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/posts\/first-fpv-drone\/",
+    "author" : {
+      "@type": "Person",
+      "name": "john35588"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-02-22T00:00:00\u002b00:00",
+    "datePublished": "2026-02-22T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-02-22T00:00:00\u002b00:00",
+    
+    "keywords": ["FPV","drone","DIY","hobby","betaflight","analog","TBS source one v6","3D printing"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "918"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "John35588",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/posts/",
+       "name": "Posts",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Building My First Fpv Drone",
+       "position": 3
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="john35588" />
+  
+  
+    
+      <link href="https://github.com/john35588" rel="me" />
+    
+      <link href="https://www.thingiverse.com/John35588" rel="me" />
+    
+      <link href="https://www.last.fm/user/john35588" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="z-40 flex flex-row items-center">
+      
+    <a href="/" class="mr-2">
+      
+      <img
+        src="http://localhost:1313/img/logo128.png"
+        width="64"
+        height="64"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        "
+        alt="john35588"
+      />
+    </a>
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >john35588</a
+  >
+
+    </div>
+    
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
+        <input type="checkbox" id="menu-controller" class="hidden" />
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
+        >
+          <ul
+            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+          >
+            <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span></span
+              >
+            </li>
+            
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/posts/"
+                      title="Posts"
+                      onclick="close_menu()"
+                      
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Home</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/categories/"
+                      title="Categories"
+                      onclick="close_menu()"
+                      
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Categories</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/tags/"
+                      title="Tags"
+                      onclick="close_menu()"
+                      
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Tags</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="https://github.com/john35588/congo-site"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      target="_blank"
+                      >
+                        <span
+                          class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                        ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span></a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    
+                    
+                      <button
+                        id="search-button-1"
+                        title="Search (/)"
+                      >
+                        
+                          <span
+                            class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                          ><span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                            ></span
+                          >
+                        
+                      </button>
+                    
+                  
+                </li>
+              
+              
+            
+          </ul>
+        </div>
+      </label>
+      
+      <ul class="hidden list-none flex-row text-end sm:flex">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/posts/"
+                  title="Posts"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Home</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="https://github.com/john35588/congo-site"
+                  title=""
+                  
+                  target="_blank"
+                  >
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span></a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                
+                
+                  <button
+                    id="search-button-2"
+                    title="Search (/)"
+                  >
+                    
+                      <span
+                        class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                      ><span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </button>
+                
+              
+            </li>
+          
+          
+
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Building My First FPV Drone
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-02-22 00:00:00 &#43;0000 UTC">22 February 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_e35946c91254ef9.webp 330w,http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_c63577618bd0496a.webp 660w
+            
+              ,http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_ed256bf24173372f.webp 1024w
+            
+            
+              ,http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_78461f7ad599b54.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="4032"
+        height="2377"
+        class="mx-auto my-0 rounded-md"
+        alt="My 5 inch FPV drone"
+        loading="lazy" decoding="async"
+        
+          src="http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_f64a738437b5cf03.webp" srcset="http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_d4e4e065529ec042.webp 330w,http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_f64a738437b5cf03.webp 660w
+          
+            ,http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_e5f9311440d91e16.webp 1024w
+          
+          
+            ,http://localhost:1313/posts/first-fpv-drone/complete-drone_hu_2484dc182b151d20.webp 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    <figcaption class="text-center">My completed 5 inch FPV drone</figcaption>
+  </figure>
+
+
+<p>Several years ago, I saw a video online of someone flying a drone in a style I hadn&rsquo;t seen before. They were flying through an old building, in and out of windows, dodging through tight spaces at breakneck speeds. I was immediately intrigued and wanted to try it. I began to research and found just the beginning of how massive the &ldquo;FPV rabbit hole&rdquo; was.</p>
+<p>I was excited and ready to buy all the parts to build my own drone right then, but life had different plans, and my FPV dreams were put on hold for the next couple of years.</p>
+<p>Fast forward to about six months ago, I was ready at last to start again! I bought a controller (the Radiomaster Pocket ELRS version) and began practicing on Velocidrone. Meanwhile, I spent hours on <a href="https://oscarliang.com/" target="_blank" rel="noreferrer">Oscar Liang&rsquo;s website</a> and YouTube learning all I could about the hobby. Eventually, I bought a Betaflight Air65 Tiny Whoop to practice around the house with. After a few months of periodic practice and around the start of 2026, I was finally ready to begin searching for parts.</p>
+<p>After my research, I had a pretty good idea on what I wanted my drone to be capable of: speed, agility, durability, etc. So, I tried to find parts that were centered around what I knew I wanted. Below is a list of the parts I ended up with, and why I chose each one.</p>
+<h2 id="parts-list" class="relative group">Parts List: <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#parts-list" aria-label="Anchor">#</a></span></h2><table>
+  <thead>
+      <tr>
+          <th>Part</th>
+          <th>Model</th>
+          <th>Why I chose this</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Frame</td>
+          <td>TBS Source One v6</td>
+          <td>I knew I wanted a 5 inch drone, and I wanted something well documented and durable. The Source One checks all these boxes, and provides a large area to build in. It has handled exceptionally well, and shows no signs of damage from my several crashes.</td>
+      </tr>
+      <tr>
+          <td>Motors</td>
+          <td>Xing 2207 1855KV</td>
+          <td>Excellent reviews and great price. I wanted to use 5S and 6S batteries, so I went with the lower 1855KV option.</td>
+      </tr>
+      <tr>
+          <td>ESC</td>
+          <td>GOKU G55M AM32</td>
+          <td>This ESC came with my flight controller. It runs AM32, and can manage 55 amps per motor.</td>
+      </tr>
+      <tr>
+          <td>Flight Controller</td>
+          <td>GOKU H743 PRO</td>
+          <td>This flight controller has many of the modern amenities built in! A powerful processor, dual gyroscopes, several UARTs, and two camera ports!</td>
+      </tr>
+      <tr>
+          <td>Camera</td>
+          <td>Caddx Ratel 2</td>
+          <td>A very well reviewed camera with decent quality for a decent price.</td>
+      </tr>
+      <tr>
+          <td>VTX</td>
+          <td>TBS Unify Pro32 HV</td>
+          <td>An amazing video transmitter. It can output at over 1W, and supports TBS Smart Audio.</td>
+      </tr>
+      <tr>
+          <td>VTX Antenna</td>
+          <td>XILO AXII MMCX RHCP</td>
+          <td>For this part, I didn&rsquo;t know for sure what to get. There weren&rsquo;t many parts available online for the Source One v6, so I figured I&rsquo;d be designing my own mount for the antennas. This one had decent reviews and looked to be pretty easy to design a mount for.</td>
+      </tr>
+      <tr>
+          <td>Receiver</td>
+          <td>HGLRC ELRS 2.4 RX-T</td>
+          <td>A small, simple receiver, nothing too fancy, but gets the job done.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Something experienced builders may have noticed is the inclusion of an analog FPV system. Analog has been the standard for years, but has recently been becoming obsolete as it&rsquo;s being replaced by digital systems like HDZero, Walksnail, and DJI&rsquo;s digital system. I knew I would be getting lower quality video, but I wasn&rsquo;t ready to invest $300+ in just a video system quite yet. Besides, if I started with Digital, I knew I would never be able to go back to any analog system again.</p>
+<p>I ended up with a happy medium, the TBS Unify Pro32 HV provides a strong, stable link with decent quality (for an analog system), and didn&rsquo;t cost more than the rest of the drone did.</p>
+<h2 id="assembly" class="relative group">Assembly <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#assembly" aria-label="Anchor">#</a></span></h2><div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+  <span class="pe-3 text-primary-400">
+    <span class="icon relative inline-block px-1 align-text-bottom"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:currentColor;fill-opacity:1;" d="M 0 0 C 7.921875 0 15.839844 0 24 0 C 24 7.921875 24 15.839844 24 24 C 21.097656 24 18.191406 24 15.199219 24 C 15.199219 19.246094 15.199219 14.496094 15.199219 9.601562 C 17.3125 9.601562 19.425781 9.601562 21.601562 9.601562 C 21.601562 7.753906 21.601562 5.902344 21.601562 4 C 15.265625 4 8.929688 4 2.398438 4 C 2.398438 5.847656 2.398438 7.695312 2.398438 9.601562 C 4.511719 9.601562 6.625 9.601562 8.800781 9.601562 C 8.800781 14.351562 8.800781 19.105469 8.800781 24 C 5.894531 24 2.992188 24 0 24 C 0 16.078125 0 8.160156 0 0 Z M 0 0 "/>
+</g>
+</svg>
+</span>
+  </span>
+  <span class="dark:text-neutral-300">All my 3D models used for this build are available on Thingiverse <a href="https://www.thingiverse.com/thing:7280553" target="_blank" rel="noreferrer">here</a>.</span>
+</div>
+
+<p>Finally, the parts all arrived, and I was ready to assemble everything. The frame was first, and it went together well, though I discovered I would be needing longer stack screws than the ones it came with. I printed some feet I designed, installed the motors, then soldered them to the ESC. I had read about the difficulty others have while soldering motors and battery leads to the ESC, and had similar difficulty. It&rsquo;s a rite of passage I guess, but in the end I had everything attached well and not looking too bad.</p>
+<p>I mounted the camera, then the VTX and receiver in the back. I used thermal tape to attach the VTX to the frame, as I&rsquo;d heard it could get hot, then I opened Fusion 360 to figure out how I&rsquo;d mount the antennas. Here is what I came up with:</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_3d88a021af1c2dd8.webp 330w,http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_e36ad7a79b577fa6.webp 660w
+            
+              ,http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_11587ba67d1f1623.webp 1024w
+            
+            
+              ,http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_4ae5b8f3989c568.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="4032"
+        height="3024"
+        class="mx-auto my-0 rounded-md"
+        alt="Mounts for RX and VTX antennas installed on drone"
+        loading="lazy" decoding="async"
+        
+          src="http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_f8908f8ae4cb315.webp" srcset="http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_abbd31c026980327.webp 330w,http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_f8908f8ae4cb315.webp 660w
+          
+            ,http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_a825ef22a33c7217.webp 1024w
+          
+          
+            ,http://localhost:1313/posts/first-fpv-drone/antenna-mounts_hu_26c44f8840152a2a.webp 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    <figcaption class="text-center">My custom mounts for RX and VTX antennas installed on drone</figcaption>
+  </figure>
+
+
+<p>The RX antenna mount is held in place by the screws on the bottom of the frame, the RX antenna is zip-tied on with some small zip-ties I had laying around.</p>
+<p>The VTX antenna mount &ldquo;hugs&rdquo; the top plate of the frame, and is held in place by the top screws. The VTX antenna is slid into a curved slot, then held in place by a small section of a zip-tie. The zip-tie fits snugly inside it&rsquo;s channel and keeps the antenna at a gentle bend.</p>
+<p>I saw some concerns online about the exposed carbon fiber on either side of the camera, some said it would start failing after a few head-on crashes, so I designed these guards to lessen that chance:</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_866790c9313aa11c.webp 330w,http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_2f2b7ed17c549614.webp 660w
+            
+              ,http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_8d94a4d0ff67b55f.webp 1024w
+            
+            
+              ,http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_90e3708a89505782.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="4032"
+        height="3024"
+        class="mx-auto my-0 rounded-md"
+        alt="Thin, printed guards on either side of the camera"
+        loading="lazy" decoding="async"
+        
+          src="http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_34ffa0ab6ba7d9f7.webp" srcset="http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_77b74f3d88a7dee.webp 330w,http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_34ffa0ab6ba7d9f7.webp 660w
+          
+            ,http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_48e6f0f14fe37c05.webp 1024w
+          
+          
+            ,http://localhost:1313/posts/first-fpv-drone/camera-guard_hu_7cc247dbf8222356.webp 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    <figcaption class="text-center">My custom camera guards installed</figcaption>
+  </figure>
+
+
+<h2 id="programming" class="relative group">Programming <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#programming" aria-label="Anchor">#</a></span></h2><p>Like most other FPV drones, I opted to use Betaflight. I</p>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+      
+      
+        
+        
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="!mb-0 !mt-0 me-4 w-24 h-auto rounded-full"
+      
+    >
+      
+      
+      
+      
+      <img
+        width="2500"
+        height="2500"
+        class="!mb-0 !mt-0 me-4 w-24 h-auto rounded-full"
+        alt="john35588"
+        loading="lazy" decoding="async"
+        
+          src="http://localhost:1313/img/author_hu_4d9fcff02ed3be9f.png" srcset="http://localhost:1313/img/author_hu_94ea818aa8b7856c.png 330w,http://localhost:1313/img/author_hu_4d9fcff02ed3be9f.png 660w
+          
+            ,http://localhost:1313/img/author_hu_aba439c1c809fa1c.png 1024w
+          
+          
+            ,http://localhost:1313/img/author_hu_364e43852cc4081a.png 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          john35588
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">I am always trying to learn something new and apply my knowledge in fun (and often overly complicated) ways. I am interested in computers, 3D printing, 3D design, FPV drones, and circuitry. I also enjoy working on projects more than writing, so I may not be posting too often.</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://github.com/john35588"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.thingiverse.com/John35588"
+          target="_blank"
+          aria-label="Thingiverse"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:currentColor;fill-opacity:1;" d="M 0 0 C 7.921875 0 15.839844 0 24 0 C 24 7.921875 24 15.839844 24 24 C 21.097656 24 18.191406 24 15.199219 24 C 15.199219 19.246094 15.199219 14.496094 15.199219 9.601562 C 17.3125 9.601562 19.425781 9.601562 21.601562 9.601562 C 21.601562 7.753906 21.601562 5.902344 21.601562 4 C 15.265625 4 8.929688 4 2.398438 4 C 2.398438 5.847656 2.398438 7.695312 2.398438 9.601562 C 4.511719 9.601562 6.625 9.601562 8.800781 9.601562 C 8.800781 14.351562 8.800781 19.105469 8.800781 24 C 5.894531 24 2.992188 24 0 24 C 0 16.078125 0 8.160156 0 0 Z M 0 0 "/>
+</g>
+</svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.last.fm/user/john35588"
+          target="_blank"
+          aria-label="Lastfm"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M225.8 367.1l-18.8-51s-30.5 34-76.2 34c-40.5 0-69.2-35.2-69.2-91.5 0-72.1 36.4-97.9 72.1-97.9 66.5 0 74.8 53.3 100.9 134.9 18.8 56.9 54 102.6 155.4 102.6 72.7 0 122-22.3 122-80.9 0-72.9-62.7-80.6-115-92.1-25.8-5.9-33.4-16.4-33.4-34 0-19.9 15.8-31.7 41.6-31.7 28.2 0 43.4 10.6 45.7 35.8l58.6-7c-4.7-52.8-41.1-74.5-100.9-74.5-52.8 0-104.4 19.9-104.4 83.9 0 39.9 19.4 65.1 68 76.8 44.9 10.6 79.8 13.8 79.8 45.7 0 21.7-21.1 30.5-61 30.5-59.2 0-83.9-31.1-97.9-73.9-32-96.8-43.6-163-161.3-163C45.7 113.8 0 168.3 0 261c0 89.1 45.7 137.2 127.9 137.2 66.2 0 97.9-31.1 97.9-31.1z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2026
+            john35588
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title="Switch to dark appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title="Switch to light appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+>
+  <div
+    id="search-modal"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-neutral shadow-lg dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex flex-none items-center justify-between px-2">
+      <form class="flex min-w-0 flex-auto items-center">
+        <div class="flex h-8 w-8 items-center justify-center text-neutral-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex h-8 w-8 items-center justify-center text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto overflow-auto px-2">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

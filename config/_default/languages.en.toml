@@ -14,11 +14,11 @@ title = "john35588"
 
 [params.author]
   name = "john35588"
-  image = "img/author.jpg"
-  headline = "I'll probably think of something cool to put here later"
-  bio = "I am always trying to learn something new and apply my knowledge in fun (and often over-complicated) ways.\nI am interested in computers, 3D printing, 3D design, FPV drones, and circuitry.\nI also enjoy working on projects more than writing."
+  image = "img/author.png"
+  headline = "You found my website! It's still a work in progress, so check back later for more!"
+  bio = "I am always trying to learn something new and apply my knowledge in fun (and often overly complicated) ways. I am interested in computers, 3D printing, 3D design, FPV drones, and circuitry. I also enjoy working on projects more than writing, so I may not be posting too often."
   links = [
-    { email = "mailto:jcwendel100@gmail.com" },
+  #   { email = "mailto:email@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
