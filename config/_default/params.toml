@@ -42,6 +42,7 @@ fingerprintAlgorithm = "sha256"
   showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
+  showOngoingLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true

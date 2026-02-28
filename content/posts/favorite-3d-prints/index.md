@@ -1,13 +1,15 @@
 ---
-title: "Some of my Favorite 3D Prints"
+title: "Some of my Favorite 3D Prints "
 date: 2026-02-24
+lastmod: 2026-02-27
 draft: false
 description: "I'm often asked what my favorite things to print are, here's my response to that question."
 summary: "I'm often asked what my favorite things to print are, here's my response to that question."
 slug: "favorite-3d-prints"
-tags: ["DIY", "hobby", "3D printing", "3D design"]
+tags: ["DIY", "hobby", "3D printing", "3D design", "ongoing"]
+showDateUpdated: true
+ongoing: true
 ---
-
 ## Introduction
 I started 3D printing over ten years ago. My first 3D printer was a cheap little Monoprice MP Mini Select v2. It worked well for several years, but was too slow, loud, and didn't produce the quality I wanted, so I upgraded a few years later to an Ender 3. 
 
@@ -15,7 +17,7 @@ When I tell people I enjoy 3D printing, the first question I get is either, "wha
 
 The main reason I don't always know how to respond is because to me, the coolest part about 3D printing isn't all the little trinkets and fidget toys you see so often online like most people assume. No, the coolest part of 3D printing is the excitement I get when I design something on my computer then print it, and it works! The feeling of joy I get when something I design functions properly is impossible to describe. 
 
-In this post, I will share a few projects from the past several years that are among my favorite prints. I will include links to the models when possible.
+In this post, I will share a few projects that are among my favorite prints. Not all are things I designed. I will include links to the models when possible.
 
 ## 1. Adjustable Bench Power Supply
 {{< figure
@@ -37,4 +39,3 @@ I tried to make it as compact as possible while maintaining plenty of room for g
 This project was one of my favorites because I use it often, and it just came together so well! 
 
 Models and instructions for this design are on [Thingiverse](https://www.thingiverse.com/thing:6940739).
-
