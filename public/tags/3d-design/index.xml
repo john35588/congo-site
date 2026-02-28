@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D Design on john35588</title>
+    <link>https://wendex.xyz/tags/3d-design/</link>
+    <description>Recent content in 3D Design on john35588</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://wendex.xyz/tags/3d-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some of my Favorite 3D Prints</title>
+      <link>https://wendex.xyz/posts/favorite-3d-prints/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://wendex.xyz/posts/favorite-3d-prints/</guid>
+      <description>I&amp;rsquo;m often asked what my favorite things to print are, here&amp;rsquo;s my response to that question.</description>
+    </item>
+    <item>
+      <title>Building My First FPV Drone</title>
+      <link>https://wendex.xyz/posts/first-fpv-drone/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://wendex.xyz/posts/first-fpv-drone/</guid>
+      <description>In this post, I share my journey of building my first FPV drone, including the components I chose, the assembly process, and the challenges I faced along the way.</description>
+    </item>
+  </channel>
+</rss>

@@ -9,9 +9,25 @@
     
   
     
+  
+    
       <url>
-            <loc>http://localhost:1313/posts/first-fpv-drone/</loc>
-            <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+            <loc>https://wendex.xyz/</loc>
+            <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://wendex.xyz/posts/</loc>
+            <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://wendex.xyz/posts/favorite-3d-prints/</loc>
+            <lastmod>2026-02-24T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -22,19 +38,12 @@
     
   
     
-  
-    
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>https://wendex.xyz/posts/first-fpv-drone/</loc>
             <lastmod>2026-02-22T00:00:00+00:00</lastmod>
           </url>
     
   
-    
-      <url>
-            <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2026-02-22T00:00:00+00:00</lastmod>
-          </url>
     
   
     

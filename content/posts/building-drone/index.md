@@ -11,7 +11,7 @@ tags: ["FPV", "drone", "DIY", "hobby", "betaflight", "analog", "TBS source one v
 {{< figure
     src="complete-drone.webp"
     alt="My 5 inch FPV drone"
-    caption=" My completed 5 inch FPV drone"
+    caption="My completed 5 inch FPV drone"
 >}}
 
 Several years ago, I saw a video online of someone flying a drone in a style I hadn't seen before. They were flying through an old building, in and out of windows, dodging through tight spaces at breakneck speeds. I was immediately intrigued and wanted to try it. I began to research and found just the beginning of how massive the "FPV rabbit hole" was. 
@@ -68,7 +68,7 @@ I saw some concerns online about the exposed carbon fiber on either side of the 
 
 ## Programming
 
-Like most other FPV drones, I opted to use Betaflight. I plugged in my drone for the first time, set each motor direction, configured the UART ports so my reciever and Smart Audio VTX controll would work, and adjusted the OSD to my liking. There are so many options and settings within Betaflight, and I only scratched the surface of what's available. 
+Like most other FPV drones, I opted to use Betaflight. I plugged in my drone for the first time, set each motor direction, configured the UART ports so my receiver and Smart Audio VTX control would work, and adjusted the OSD to my liking. There are so many options and settings within Betaflight, and I only scratched the surface of what's available. 
 
 ## First Flight
 
