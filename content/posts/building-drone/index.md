@@ -22,7 +22,7 @@ Fast forward to about six months ago, I was ready at last to start again! I boug
 
 After my research, I had a pretty good idea on what I wanted my drone to be capable of: speed, agility, durability, etc. So, I tried to find parts that were centered around what I knew I wanted. Below is a list of the parts I ended up with, and why I chose each one.
 
-## Parts List:
+## Parts List
 |Part|Model|Why I chose this|
 |---|---|---|
 |Frame|TBS Source One v6|I knew I wanted a 5 inch drone, and I wanted something well documented and durable. The Source One checks all these boxes, and provides a large area to build in. It has handled exceptionally well, and shows no signs of damage from my several crashes.|
