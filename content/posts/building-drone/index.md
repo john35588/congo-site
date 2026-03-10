@@ -3,7 +3,7 @@ title: "Building My First FPV Drone"
 date: 2026-02-22
 draft: false
 description: "My experience building my first FPV drone."
-summary: "In this post, I share my journey of building my first FPV drone, including the components I chose, the assembly process, and the challenges I faced along the way."
+summary: "My experience building my first FPV drone"
 slug: "first-fpv-drone"
 tags: ["FPV", "drone", "DIY", "hobby", "betaflight", "analog", "TBS source one v6", "3D printing", "3D design"]
 ---

@@ -20,7 +20,14 @@
       <link>https://wendex.xyz/posts/first-fpv-drone/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://wendex.xyz/posts/first-fpv-drone/</guid>
-      <description>In this post, I share my journey of building my first FPV drone, including the components I chose, the assembly process, and the challenges I faced along the way.</description>
+      <description>My experience building my first FPV drone</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://wendex.xyz/about/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://wendex.xyz/about/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
