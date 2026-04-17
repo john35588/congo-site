@@ -1,10 +1,12 @@
 ---
 title: "Building My First FPV Drone"
 date: 2026-02-22
+lastmod: 2026-04-16
 draft: false
 description: "My experience building my first FPV drone."
 summary: "My experience building my first FPV drone"
 slug: "first-fpv-drone"
+showDateUpdated: true
 tags: ["FPV", "drone", "DIY", "hobby", "betaflight", "analog", "TBS source one v6", "3D printing", "3D design"]
 ---
 
@@ -30,9 +32,10 @@ After my research, I had a pretty good idea on what I wanted my drone to be capa
 |ESC|GOKU G55M AM32|This ESC came with my flight controller. It runs AM32, and can manage 55 amps per motor.|
 |Flight Controller|GOKU H743 PRO|This flight controller has many of the modern amenities built in! A powerful processor, dual gyroscopes, several UARTs, and two camera ports!|
 |Camera|Caddx Ratel 2|A very well reviewed camera with decent quality for a decent price.|
-|VTX|TBS Unify Pro32 HV|An amazing video transmitter. It can output at over 1W, and supports TBS Smart Audio.|
+|VTX|TBS Unify Pro32 HV|An amazing video transmitter. It can output at over 1W, and supports TBS SmartAudio.|
 |VTX Antenna|XILO AXII MMCX RHCP|For this part, I didn't know for sure what to get. There weren't many parts available online for the Source One v6, so I figured I'd be designing my own mount for the antennas. This one had decent reviews and looked to be pretty easy to design a mount for.|
 |Receiver|HGLRC ELRS 2.4 RX-T|A small, simple receiver, nothing too fancy, but gets the job done.|
+|GPS|HGLRC M100-5883|A well reviewed, modern GPS with a built in magnetometer.|
 
 Something experienced builders may have noticed is the inclusion of an analog FPV system. Analog has been the standard for years, but has recently been becoming obsolete as it's being replaced by digital systems like HDZero, Walksnail, and DJI's digital system. I knew I would be getting lower quality video, but I wasn't ready to invest $300+ in just a video system quite yet. Besides, if I started with Digital, I knew I would never be able to go back to any analog system again.
 
@@ -68,8 +71,20 @@ I saw some concerns online about the exposed carbon fiber on either side of the 
 
 ## Programming
 
-Like most other FPV drones, I opted to use Betaflight. I plugged in my drone for the first time, set each motor direction, configured the UART ports so my receiver and Smart Audio VTX control would work, and adjusted the OSD to my liking. There are so many options and settings within Betaflight, and I only scratched the surface of what's available. 
+Like most other FPV drones, I opted to use Betaflight. I plugged in my drone for the first time, set each motor direction, configured the UART ports so my receiver and SmartAudio VTX control would work, and adjusted the OSD to my liking. There are so many options and settings within Betaflight, and I only scratched the surface of what's available. 
 
 ## First Flight
 
-After I had completed my drone, I waited in agony for about two weeks before the weather (and my schedule) finally cooperated enough for me to fly. When it finally did, I found an open field and flew around! It was still cold enough that I only managed to use one battery before my hands were too cold to continue, but it was a blast! Since then, I've been able to fly a few more times. I'm still pretty timid, but I'm excited to continue with this new hobby!
+After I had completed my drone, I waited in agony for about two weeks before the weather (and my schedule) finally cooperated enough for me to fly. When it finally did, I found an open field and flew around! It was still cold enough that I only managed to use one battery before my hands were too cold to continue, but it was a blast! Since then, I've been able to fly a few more times. I'm still a pretty timid pilot, but I'm excited to continue with this new hobby!
+
+## Changes since the Initial Build
+
+A few months after the initial build, I wanted to know how fast my drone was capable of going. I was also excited to try out some of the new features added in the recent versions of Betaflight, so I bought a GPS module, flashed to the latest Betaflight version, and designed a new mount for my GPS. 
+
+{{< figure
+    src="gps-mount.webp"
+    alt="The new GPS mount integrated with the old VTX antenna mount"
+    caption="The new GPS mount, integrated with the old VTX antenna mount"
+>}}
+
+The GPS preforms very well, and quickly locks on to 15+ satellites. I haven't yet tackled the magnetometer, as it is quite an [intense process](https://betaflight.com/docs/wiki/guides/current/Magnetometer) to set up and calibrate, but I was able to get a maximum speed: 87 MPH!

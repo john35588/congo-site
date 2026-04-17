@@ -61,5 +61,6 @@ After printing the larger shelf, I learned my walls were not perfectly square, b
 
 While quick and easy designs and prints, these two designs are something I use every day, and it puts a smile on my face to see something so simple working so well for what it's intended. These two simple parts demonstrate one of my favorite parts of 3D printing, and that is that I can identify a need, design something to fill it, and be holding a physical solution just a few hours later. The power to go from idea to product so quickly is intoxicating, and never gets old.
 
-Small shelf of [Thingiverse](https://www.thingiverse.com/thing:7248327).
+Small shelf on [Thingiverse](https://www.thingiverse.com/thing:7248327).
+
 Large shelf on [Thingiverse](https://www.thingiverse.com/thing:7296473).
