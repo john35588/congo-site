@@ -1,7 +1,7 @@
 ---
 title: "Some of my Favorite 3D Prints "
 date: 2026-02-24
-lastmod: 2026-03-10
+lastmod: 2026-04-27
 draft: false
 description: "I'm often asked what my favorite things to print are, here's my response to that question."
 summary: "I'm often asked what my favorite things to print are, here's my response to that question."
@@ -38,7 +38,9 @@ I tried to make it as compact as possible while maintaining plenty of room for g
 
 This project was one of my favorites because I use it often, and it just came together so well! 
 
+{{< alert "thingiverse" >}}
 Models and instructions for this design are on [Thingiverse](https://www.thingiverse.com/thing:6940739).
+{{< /alert >}}
 
 ## 2. Shower Shelves
 This project is one of my less impressive designs and prints, but is one that left me feeling the most fulfilled for some reason. 
@@ -61,6 +63,27 @@ After printing the larger shelf, I learned my walls were not perfectly square, b
 
 While quick and easy designs and prints, these two designs are something I use every day, and it puts a smile on my face to see something so simple working so well for what it's intended. These two simple parts demonstrate one of my favorite parts of 3D printing, and that is that I can identify a need, design something to fill it, and be holding a physical solution just a few hours later. The power to go from idea to product so quickly is intoxicating, and never gets old.
 
-Small shelf on [Thingiverse](https://www.thingiverse.com/thing:7248327).
+{{< alert "thingiverse" >}}
+Small shelf on [Thingiverse](https://www.thingiverse.com/thing:7248327).<br>Large shelf on [Thingiverse](https://www.thingiverse.com/thing:7296473).
+{{< /alert >}}
 
-Large shelf on [Thingiverse](https://www.thingiverse.com/thing:7296473).
+
+## 3. Compact Resistor Storage Book
+I did not design this, but it is still one of my favorite 3D prints. There are dozens of solutions out there for resistor organization, but I love this one for it's small, portable size, simplicity, expandability and ease of printing.
+
+{{< figure
+    src="resistor-book-open.webp"
+    alt="Open resistor organizer"
+>}}
+
+{{< figure
+    src="resistor-book-closed.webp"
+    alt="Closed resistor organizer"
+>}}
+
+While there may be some concern about the need to bend the leads to insert/remove the resistors, this design is perfect for my needs, and is a great way to organize resistors.
+
+{{< alert "thingiverse" >}}
+Compact Resistor/diodes Organizer on [Thingiverse](https://www.thingiverse.com/thing:7021711/comments)
+{{< /alert >}}
+
