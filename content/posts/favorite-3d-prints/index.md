@@ -84,6 +84,6 @@ I did not design this, but it is still one of my favorite 3D prints. There are d
 While there may be some concern about the need to bend the leads to insert/remove the resistors, this design is perfect for my needs, and is a great way to organize resistors.
 
 {{< alert "thingiverse" >}}
-Compact Resistor/diodes Organizer on [Thingiverse](https://www.thingiverse.com/thing:7021711/comments)
+Compact Resistor/diodes Organizer on [Thingiverse](https://www.thingiverse.com/thing:7021711)
 {{< /alert >}}
 
