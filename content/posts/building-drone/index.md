@@ -88,4 +88,4 @@ A few months after the initial build, I wanted to know how fast my drone was cap
     caption="The new GPS mount, integrated with the old VTX antenna mount"
 >}}
 
-The GPS preforms very well, and quickly locks on to 15+ satellites. I haven't yet tackled the magnetometer, as it is quite an [intense process](https://betaflight.com/docs/wiki/guides/current/Magnetometer) to set up and calibrate, but I was able to get a maximum speed: 95 MPH!
+The GPS preforms very well, and quickly locks on to 15+ satellites. I haven't yet tackled the magnetometer, as it is quite an [intense process](https://betaflight.com/docs/wiki/guides/current/Magnetometer) to set up and calibrate, but I was able to get a maximum speed: 99 MPH!
