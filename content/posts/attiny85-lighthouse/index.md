@@ -7,7 +7,7 @@ ongoing: false
 description: "A simple soldering project using an ATtiny85 microprocessor"
 summary: "I made a simple lighthouse with wire, LEDs, a potentiometer, and an ATtiny85."
 slug: "attiny85-lighthouse"
-tags: ["soldering", "woodwork", "programming", "DIY"]
+tags: ["soldering", "woodwork", "programming", "DIY", "3D printing"]
 showDateUpdated: true
 ---
 
