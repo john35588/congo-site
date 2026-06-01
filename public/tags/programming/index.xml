@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on john35588</title>
-    <link>http://localhost:1313/tags/programming/</link>
+    <link>https://wendex.xyz/tags/programming/</link>
     <description>Recent content in Programming on john35588</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wendex.xyz/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attiny85 Lighthouse</title>
-      <link>http://localhost:1313/posts/attiny85-lighthouse/</link>
+      <link>https://wendex.xyz/posts/attiny85-lighthouse/</link>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/attiny85-lighthouse/</guid>
+      <guid>https://wendex.xyz/posts/attiny85-lighthouse/</guid>
       <description>I made a simple lighthouse with wire, LEDs, a potentiometer, and an ATtiny85.</description>
     </item>
   </channel>
