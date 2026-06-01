@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Woodwork on john35588</title>
+    <link>http://localhost:1313/tags/woodwork/</link>
+    <description>Recent content in Woodwork on john35588</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/woodwork/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attiny85 Lighthouse</title>
+      <link>http://localhost:1313/posts/attiny85-lighthouse/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/attiny85-lighthouse/</guid>
+      <description>I made a simple lighthouse with wire, LEDs, a potentiometer, and an ATtiny85.</description>
+    </item>
+  </channel>
+</rss>

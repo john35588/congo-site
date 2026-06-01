@@ -7,7 +7,7 @@ description: "My experience building my first FPV drone."
 summary: "My experience building my first FPV drone"
 slug: "first-fpv-drone"
 showDateUpdated: true
-tags: ["FPV", "drone", "DIY", "hobby", "betaflight", "analog", "TBS source one v6", "3D printing", "3D design"]
+tags: ["FPV", "drone", "DIY", "hobby", "soldering", "betaflight", "analog", "TBS source one v6", "3D printing", "3D design"]
 ongoing: false
 ---
 
@@ -89,3 +89,10 @@ A few months after the initial build, I wanted to know how fast my drone was cap
 >}}
 
 The GPS preforms very well, and quickly locks on to 15+ satellites. I haven't yet tackled the magnetometer, as it is quite an [intense process](https://betaflight.com/docs/wiki/guides/current/Magnetometer) to set up and calibrate, but I was able to get an awesome maximum speed: 99 MPH!
+
+Later on, I got ahold of an old GoPro, a Hero4, so I designed a new mount for it:
+
+{{<figure
+    src="gopro-mount.webp"
+    alt="GoPro Hero4 mounted on drone"
+>}}

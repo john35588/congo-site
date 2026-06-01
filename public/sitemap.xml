@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>http://localhost:1313/posts/attiny85-lighthouse/</loc>
+            <lastmod>2026-05-31T00:00:00+00:00</lastmod>
+          </url>
+    
   
     
   
     
       <url>
-            <loc>https://wendex.xyz/</loc>
-            <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2026-05-31T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/</loc>
+            <lastmod>2026-05-31T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -18,15 +30,37 @@
     
   
     
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
       <url>
-            <loc>https://wendex.xyz/posts/openwrt/</loc>
+            <loc>http://localhost:1313/posts/openwrt/</loc>
             <lastmod>2026-03-11T00:00:00+00:00</lastmod>
           </url>
     
   
     
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
       <url>
-            <loc>https://wendex.xyz/posts/</loc>
+            <loc>http://localhost:1313/posts/favorite-3d-prints/</loc>
             <lastmod>2026-04-27T00:00:00+00:00</lastmod>
           </url>
     
@@ -36,29 +70,8 @@
     
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
       <url>
-            <loc>https://wendex.xyz/posts/favorite-3d-prints/</loc>
-            <lastmod>2026-04-27T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://wendex.xyz/posts/first-fpv-drone/</loc>
+            <loc>http://localhost:1313/posts/first-fpv-drone/</loc>
             <lastmod>2026-04-16T00:00:00+00:00</lastmod>
           </url>
     
@@ -71,7 +84,7 @@
   
     
       <url>
-            <loc>https://wendex.xyz/about/</loc>
+            <loc>http://localhost:1313/about/</loc>
             <lastmod>2026-02-03T00:00:00+00:00</lastmod>
           </url>
     
