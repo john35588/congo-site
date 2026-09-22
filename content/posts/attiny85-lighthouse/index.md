@@ -124,7 +124,7 @@ void loop() { // Main program loop
 }
 ```
 
-I'm not super familiar with C++, so I'm sure there are many things in my code that, to anyone who's used C++ before, looks questionable at best, but it works pretty well. 
+I'm not super familiar with C++ so I'm sure there are many things in my code that, to anyone who's used C++ before, look questionable at best, but it works pretty well. 
 
 In pseudocode, it basically has four states: off, on for 10 minutes, on for 20 minutes, and on for 30 minutes. Pressing the button cycles through the four states in that order, while a timer runs in the background that changes the states in the reverse order, stopping at off. There are two indicator LEDs that show what mode it is in:
 
@@ -137,11 +137,11 @@ In pseudocode, it basically has four states: off, on for 10 minutes, on for 20 m
 
 While in any of the "on" states, it takes the position of the potentiometer, and uses PWM to change the brightness of the main LED.
 
-My original plan was to build the circuit inside the lighthouse so you could see the circuit, but luckily I didn't overestimate myself that much, and I hid it all inside the base. It looks admittedly messy, but I assure you, it is pretty sturdy. I used small screws to anchor bits of wire into place, and after taking this picture, I used hot glue to cover many of the wires so they cannot be accidentally shorted out. 
+My original plan was to build the circuit inside the lighthouse so you could see the circuit, but luckily I didn't overestimate myself that much, and I hid it all inside the base. It looks admittedly messy, but I assure you, it is pretty sturdy and reliable! I used small screws to anchor bits of wire into place, and after taking this picture, I used hot glue to cover many of the wires so they cannot be accidentally shorted out. 
 
-I had used a momentary pushbutton on the breadboard, but as I was putting everything together, I couldn't think of a way to get the pushbutton fit in with the rest of the project. I eventually decided to make my own "button" by having two pieces of copper wire connect when one is pushed. The tension of the wire itself pushes it back up. This actually worked out better because in the breadboard design, a single button press occasionally registered as two because the button would bounce when pressed.
+I had used a momentary pushbutton on the breadboard, but as I was putting everything together, I couldn't think of a way to get the pushbutton fit in with the rest of the project. I eventually decided to make my own "button" by having two pieces of copper wire connect when one is pressed. The tension of the wire itself pushes it back up. This actually worked out better because in the breadboard design, a single button press occasionally registered as two because the button would bounce when pressed.
 
-The potentiometer has a dial made of wood-fill filament that I printed after failing several times to make one out of a dial. It's pretty difficult to create a centered, straight hole in a dowel without a drill press.
+The potentiometer has a dial made of wood-fill filament that I printed after failing several times to make one out of a dowel. It turns out, it's pretty difficult to create a centered, straight hole in a dowel without a drill press.
 
 {{< figure
     src="circuit-final.webp"

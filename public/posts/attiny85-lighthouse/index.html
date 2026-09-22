@@ -140,7 +140,7 @@
     "keywords": ["soldering","woodwork","programming","DIY","3D printing"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1328"
+    "wordCount": "1333"
   }
   </script>
     
@@ -176,7 +176,7 @@
   
   
     
-      <link href="mailto:john35588@icloud.com" rel="me" />
+      <link href="mailto:john@wendex.xyz" rel="me" />
     
       <link href="https://github.com/john35588" rel="me" />
     
@@ -772,7 +772,7 @@
 </span></span><span class="line"><span class="cl">    <span class="n">analogWrite</span><span class="p">(</span><span class="n">mainLed</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>I&rsquo;m not super familiar with C++, so I&rsquo;m sure there are many things in my code that, to anyone who&rsquo;s used C++ before, looks questionable at best, but it works pretty well.</p>
+</span></span></code></pre></div><p>I&rsquo;m not super familiar with C++ so I&rsquo;m sure there are many things in my code that, to anyone who&rsquo;s used C++ before, look questionable at best, but it works pretty well.</p>
 <p>In pseudocode, it basically has four states: off, on for 10 minutes, on for 20 minutes, and on for 30 minutes. Pressing the button cycles through the four states in that order, while a timer runs in the background that changes the states in the reverse order, stopping at off. There are two indicator LEDs that show what mode it is in:</p>
 <table>
   <thead>
@@ -806,9 +806,9 @@
   </tbody>
 </table>
 <p>While in any of the &ldquo;on&rdquo; states, it takes the position of the potentiometer, and uses PWM to change the brightness of the main LED.</p>
-<p>My original plan was to build the circuit inside the lighthouse so you could see the circuit, but luckily I didn&rsquo;t overestimate myself that much, and I hid it all inside the base. It looks admittedly messy, but I assure you, it is pretty sturdy. I used small screws to anchor bits of wire into place, and after taking this picture, I used hot glue to cover many of the wires so they cannot be accidentally shorted out.</p>
-<p>I had used a momentary pushbutton on the breadboard, but as I was putting everything together, I couldn&rsquo;t think of a way to get the pushbutton fit in with the rest of the project. I eventually decided to make my own &ldquo;button&rdquo; by having two pieces of copper wire connect when one is pushed. The tension of the wire itself pushes it back up. This actually worked out better because in the breadboard design, a single button press occasionally registered as two because the button would bounce when pressed.</p>
-<p>The potentiometer has a dial made of wood-fill filament that I printed after failing several times to make one out of a dial. It&rsquo;s pretty difficult to create a centered, straight hole in a dowel without a drill press.</p>
+<p>My original plan was to build the circuit inside the lighthouse so you could see the circuit, but luckily I didn&rsquo;t overestimate myself that much, and I hid it all inside the base. It looks admittedly messy, but I assure you, it is pretty sturdy and reliable! I used small screws to anchor bits of wire into place, and after taking this picture, I used hot glue to cover many of the wires so they cannot be accidentally shorted out.</p>
+<p>I had used a momentary pushbutton on the breadboard, but as I was putting everything together, I couldn&rsquo;t think of a way to get the pushbutton fit in with the rest of the project. I eventually decided to make my own &ldquo;button&rdquo; by having two pieces of copper wire connect when one is pressed. The tension of the wire itself pushes it back up. This actually worked out better because in the breadboard design, a single button press occasionally registered as two because the button would bounce when pressed.</p>
+<p>The potentiometer has a dial made of wood-fill filament that I printed after failing several times to make one out of a dowel. It turns out, it&rsquo;s pretty difficult to create a centered, straight hole in a dowel without a drill press.</p>
 
   
   
@@ -1021,7 +1021,7 @@
         <a
           class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
           style="will-change:transform;"
-          href="mailto:john35588@icloud.com"
+          href="mailto:john@wendex.xyz"
           target="_blank"
           aria-label="Email"
           rel="me noopener noreferrer"

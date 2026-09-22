@@ -96,3 +96,8 @@ Later on, I got ahold of an old GoPro, a Hero4, so I designed a new mount for it
     src="gopro-mount.webp"
     alt="GoPro Hero4 mounted on drone"
 >}}
+
+## DIYFPV Listing
+
+My drone is now listed on [DIYFPV](https://www.diyfpv.com/build/johns-5-freestyle-build-hroalt), including a complete wiring diagram (embedded below)!
+<iframe src="https://builder.diyfpv.com/embed/3babf051e3c1" title="John's 5&quot; Build" width="100%" height="560" style="border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe>
