@@ -1,7 +1,7 @@
 ---
 title: "Building My First FPV Drone"
 date: 2026-02-22
-lastmod: 2026-05-31
+lastmod: 2026-09-22
 draft: false
 description: "My experience building my first FPV drone."
 summary: "My experience building my first FPV drone"
