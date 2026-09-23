@@ -21,7 +21,7 @@ Several years ago, I saw a video online of someone flying a drone in a style I h
 
 I was excited and ready to buy all the parts to build my own drone right then, but life had different plans, and my FPV dreams were put on hold for the next couple of years.
 
-Fast forward to about six months ago, I was ready at last to start again! I bought a controller (the Radiomaster Pocket ELRS version) and began practicing on Velocidrone. Meanwhile, I spent hours on [Oscar Liang's website](https://oscarliang.com/) and YouTube learning all I could about the hobby. Eventually, I bought a Betaflight Air65 Tiny Whoop to practice around the house with. After a few months of periodic practice and around the start of 2026, I was finally ready to begin searching for parts. 
+Fast forward to about six months ago, I was ready at last to start again! I bought a [Radiomaster Pocket](https://radiomasterrc.com/products/pocket-radio-controller-m2) (ELRS version) controller and began practicing on [Velocidrone](https://www.velocidrone.com/). Meanwhile, I spent hours on [Oscar Liang's website](https://oscarliang.com/) and YouTube learning all I could about the hobby. Eventually, I bought a [BetaFPV Air65](https://betafpv.com/products/air65-brushless-whoop-quadcopter?variant=41111519494278) Tiny Whoop to practice around the house with. After a few months of periodic practice and around the start of 2026, I was finally ready to begin searching for parts. 
 
 After my research, I had a pretty good idea on what I wanted my drone to be capable of: speed, agility, durability, etc. So, I tried to find parts that were centered around what I knew I wanted. Below is a list of the parts I ended up with, and why I chose each one.
 
@@ -38,17 +38,17 @@ After my research, I had a pretty good idea on what I wanted my drone to be capa
 |Receiver|HGLRC ELRS 2.4 RX-T|A small, simple receiver, nothing too fancy, but gets the job done.|
 |GPS|HGLRC M100-5883|A well reviewed, modern GPS with a built in magnetometer.|
 
-Something experienced builders may have noticed is the inclusion of an analog FPV system. Analog has been the standard for years, but has recently been becoming obsolete as it's being replaced by digital systems like HDZero, Walksnail, and DJI's digital system. I knew I would be getting lower quality video, but I wasn't ready to invest $300+ in just a video system quite yet. Besides, if I started with Digital, I knew I would never be able to go back to any analog system again.
+Something experienced builders may have noticed is the inclusion of an analog FPV system. Analog has been the standard for years, but has recently been becoming obsolete as it's being replaced by digital systems like HDZero, Walksnail, and DJI's digital system. I knew I would be getting lower quality video, but I wasn't ready to invest $300+ in just a video system quite yet. Besides, if I started with Digital, I knew I would never be able to go back to any analog system again, and I thought it would be a valuable experience to learn on an analog system.
 
 I ended up with a happy medium, the TBS Unify Pro32 HV provides a strong, stable link with decent quality (for an analog system), and didn't cost more than the rest of the drone did.
 
 ## Assembly
 
 {{< alert "thingiverse" >}}
-All my 3D models used for this build are available on Thingiverse [here](https://www.thingiverse.com/thing:7280553).
+All my 3D models used for this build are available for free on Thingiverse [here](https://www.thingiverse.com/thing:7280553).
 {{< /alert >}}
 
-Finally, the parts all arrived, and I was ready to assemble everything. The frame was first, and it went together well, though I discovered I would be needing longer stack screws than the ones it came with. I printed some feet I designed, installed the motors, then soldered them to the ESC. I had read about the difficulty others have while soldering motors and battery leads to the ESC, and had similar difficulty. It's a rite of passage I guess, but in the end I had everything attached well and not looking too bad. 
+Finally, the parts all arrived, and I was ready to assemble everything. The frame was first, and it went together well, though I discovered I would be needing longer stack screws than the ones the frame came with. I printed some feet I designed, installed the motors, then soldered them to the ESC. I had read about the difficulty others have while soldering motors and battery leads to the ESC, and had similar difficulty. It's a rite of passage I guess, but in the end I had everything attached well and not looking too bad. 
 
 I mounted the camera, then the VTX and receiver in the back. I used thermal tape to attach the VTX to the frame, as I'd heard it could get hot, then I opened Fusion 360 to figure out how I'd mount the antennas. Here is what I came up with:
 
@@ -58,11 +58,11 @@ I mounted the camera, then the VTX and receiver in the back. I used thermal tape
     caption=" My custom mounts for RX and VTX antennas installed on drone"
 >}}
 
-The RX antenna mount is held in place by the screws on the bottom of the frame, the RX antenna is zip-tied on with some small zip-ties I had laying around.
+The RX antenna mount is held in place by the screws on the bottom of the frame, the RX antenna is zip-tied on with some small zip-ties.
 
 The VTX antenna mount "hugs" the top plate of the frame, and is held in place by the top screws. The VTX antenna is slid into a curved slot, then held in place by a small section of a zip-tie. The zip-tie fits snugly inside it's channel and keeps the antenna at a gentle bend.
 
-I saw some concerns online about the exposed carbon fiber on either side of the camera, some said it would start failing after a few head-on crashes, so I designed these guards to lessen that chance:
+I saw some concerns online about the exposed carbon fiber on either side of the camera, some said it would start failing after a few head-on crashes, so I designed these guards to protect it:
 
 {{< figure
     src="camera-guard.webp"
@@ -72,11 +72,11 @@ I saw some concerns online about the exposed carbon fiber on either side of the 
 
 ## Programming
 
-Like most other FPV drones, I opted to use Betaflight. I plugged in my drone for the first time, set each motor direction, configured the UART ports so my receiver and SmartAudio VTX control would work, and adjusted the OSD to my liking. There are so many options and settings within Betaflight, and I only scratched the surface of what's available. 
+Like most FPV drones, I opted to use Betaflight. I plugged in my drone for the first time, set each motor direction, configured the UART ports so my receiver and SmartAudio VTX control would work, and adjusted the OSD to my liking. There are so many options and settings within Betaflight, I only scratched the surface of what's available. 
 
 ## First Flight
 
-After I had completed my drone, I waited in agony for about two weeks before the weather (and my schedule) finally cooperated enough for me to fly. When it finally did, I found an open field and flew around! It was still cold enough that I only managed to use one battery before my hands were too cold to continue, but it was a blast! Since then, I've been able to fly a few more times. I'm still a pretty timid pilot, but I'm excited to continue with this new hobby!
+After I had completed my drone, I waited in agony for about two weeks before the weather (and my schedule) finally cooperated enough for me to fly. When it finally did, I found an open field and flew around! It was still cold enough outside that I only managed to use one battery before my hands were too cold to continue, but it was a blast! Since then, I've been able to fly many more times. I'm still a pretty timid pilot, but I'm excited to continue with this new hobby!
 
 ## Changes since the Initial Build
 
@@ -95,9 +95,10 @@ Later on, I got ahold of an old GoPro, a Hero4, so I designed a new mount for it
 {{<figure
     src="gopro-mount.webp"
     alt="GoPro Hero4 mounted on drone"
+    caption="My GoPro Hero4 mounted on my drone"
 >}}
 
 ## DIYFPV Listing
 
-My drone is now listed on [DIYFPV](https://www.diyfpv.com/build/johns-5-freestyle-build-hroalt), including a complete wiring diagram (embedded below)!
+My drone was the first to be listed on [DIYFPV](https://www.diyfpv.com/build/johns-5-freestyle-build-hroalt), including a complete wiring diagram with all the components (embedded below)! Thanks to the amazing people working on DIYFPV, they're making this hobby more accessible to everyone, and I highly recommend checking out the site if you're interested in building your own drone.
 <iframe src="https://builder.diyfpv.com/embed/3babf051e3c1" title="John's 5&quot; Build" width="100%" height="560" style="border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe>
