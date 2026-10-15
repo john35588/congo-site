@@ -1,0 +1,18 @@
+{
+  "version": "0.1.1",
+  "url": "https://wendex.xyz",
+  "vouches": [
+    {
+      "url": "https://github.com/john35588",
+      "vouched_at": "2026-10-14"
+    },
+    {
+      "url": "https://scottdriggers.com/",
+      "vouched_at": "2026-10-14"
+    },
+    {
+      "url": "https://foosel.net",
+      "vouched_at": "2026-10-14"
+    }
+  ]
+}

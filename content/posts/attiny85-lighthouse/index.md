@@ -33,7 +33,7 @@ The wood block is a section of 2x4 from the shed that I hollowed out with a rout
     caption="Dialing in the circuit design and programming"
 >}}
 
-I'm no electrician, and I've never taken a class on circuitry, but I know how to get what I want from the internet if I'm determined enough. I had bought a several ATtiny85 microprocessors months before because I thought the idea of a tiny 8-pin chip that can be programmed to do whatever you can imagine was amazing! When I received them, however, I didn't know how to use them, and didn't have a project in mind to use them for, so they remained unused in my drawer until this project!
+I'm no electrician, and I've never taken a class on circuitry, but I know how to get what I want from the internet if I'm determined enough. I had bought several ATtiny85 microprocessors months before because I thought the idea of a tiny 8-pin chip that can be programmed to do whatever you could imagine sounded amazing! When I received them, however, I didn't know how to use them or what to use them for, so, so they remained unused in my drawer until this project!
 
 I had a few things in mind I wanted this circuit to do:
 1. Use a potentiometer to dim the lighthouse's LED
