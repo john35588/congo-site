@@ -103,7 +103,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-03-11T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-03-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-11-20T00:00:00+00:00">
     <meta property="article:tag" content="OpenWRT">
     <meta property="article:tag" content="Fortinet">
     <meta property="article:tag" content="Networking">
@@ -136,12 +136,12 @@
     "dateCreated": "2026-03-11T00:00:00\u002b00:00",
     "datePublished": "2026-03-11T00:00:00\u002b00:00",
     
-    "dateModified": "2026-03-11T00:00:00\u002b00:00",
+    "dateModified": "2026-11-20T00:00:00\u002b00:00",
     
     "keywords": ["OpenWRT","Fortinet","Networking","Unifi","Shortcuts","DIY"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "652"
+    "wordCount": "812"
   }
   </script>
     
@@ -511,6 +511,8 @@
   
 
   
+    
+  
 
   
 
@@ -524,7 +526,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-03-11 00:00:00 &#43;0000 UTC">11 March 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+      <time datetime="2026-03-11 00:00:00 &#43;0000 UTC">11 March 2026</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-11-20 00:00:00 &#43;0000 UTC">Updated: 20 November 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -544,19 +546,132 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#internet-downtime-for-devices">Internet Downtime for Devices</a></li>
+    <li><a href="#ios-shortcuts-integration">iOS Shortcuts Integration</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>A few months ago, I brought home a used FortiGate 50E firewall from work that I had replaced with a Unifi firewall. At my house, I had previously been using Google&rsquo;s Mesh WiFi system, and had wanted to replace it for quite some time. I had some experience with Fortinet&rsquo;s user interface, but was curious about what other open source options existed out there.</p>
-<p>I looked at several options, and finally decided on OpenWRT, a simple, open source firewall firmware. It has support for my firewall, and was said to be easier than other firmware to load and configure.</p>
-<p>Following the <a href="https://openwrt.org/toh/fortinet/fortinet_fortigate_50e" target="_blank" rel="noreferrer">installation instructions</a> for my model, I set up a TFTP server on my laptop, powered on the firewall, interrupted the boot process, and forced it to pull the OpenWRT files from my laptop. It booted successfully, and I got to work figuring out how to use it!</p>
-<p>I followed a few other tutorials to figure out some of the more complicated setup procedures, and soon had it working perfectly! I also replaced my Google Mesh system with a few Unifi APs I had also gotten used from work (finally a network I can take control of!).</p>
-<p>One of my next challenges was to implement some kind of downtime for specific devices. I needed the TVs and computer to be blocked from accessing the internet after 9:00 PM each school night. This was a pretty simple set up with Google&rsquo;s mesh system, but took more time to get working properly with OpenWRT.</p>
-<p>I created a time based traffic rule that rejects traffic coming from the MAC addresses of each device I wanted to block, then set it to block from 9:00 PM until 5:00 AM the next morning. This worked for a while, until I realized this setup would only block new connections. Existing connections, for example, if someone started playing on an online Minecraft server before 9:00 PM, would not be severed at 9:00.</p>
-<p>I discovered that severing these connections required running a Conntrack command to drop all existing connections to the IP addresses in question. I statically assigned the devices, installed Conntrack, and created a Cron task:</p>
+        <p>A few months ago, I brought a used FortiGate 50E firewall home from work that I had replaced with a Unifi firewall. Previously, I had been using Google&rsquo;s Mesh WiFi system, and had wanted to replace it for quite some time. I had some experience with Fortinet&rsquo;s user interface, but was curious what other open source options existed out there.</p>
+<p>I looked at several options, and finally decided on <a href="https://openwrt.org/" target="_blank" rel="noreferrer">OpenWRT</a>, a simple, open source firewall firmware. It supports the 50E, and was said to be easier to install and learn than other firmware options.</p>
+<p>Following the <a href="https://openwrt.org/toh/fortinet/fortinet_fortigate_50e" target="_blank" rel="noreferrer">installation instructions</a> for my model, I set up a <a href="https://pjo2.github.io/tftpd64/" target="_blank" rel="noreferrer">TFTP server</a> on my laptop, powered on the firewall, interrupted the boot process through a console connection, and forced it to pull the OpenWRT files from my laptop. It booted successfully, and I got to work figuring out how to use it!</p>
+<p>I followed a few other tutorials to set up the DHCP and firewall rules, and soon had it working perfectly! I also replaced my Google Mesh system with a few Unifi APs I had also gotten used from work (finally a network I can take control of!).</p>
+<h2 id="internet-downtime-for-devices" class="relative group">Internet Downtime for Devices <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#internet-downtime-for-devices" aria-label="Anchor">#</a></span></h2><p>My next challenges was to implement some kind of downtime for specific devices, something that was easy to accomplish on the Google Mesh system. I needed the TVs and computer to be blocked from accessing the internet after 9:00 PM each school night. I created a time based traffic rule that rejects traffic coming from the MAC addresses of each device I wanted to block, then set it to block from 9:00 PM until 5:00 AM the next morning.</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="https://wendex.xyz/posts/openwrt/9FirewallRule_hu_4b9793159bb1687b.webp 330w,https://wendex.xyz/posts/openwrt/9FirewallRule_hu_2ed461bf5e50d50c.webp 660w
+            
+              
+                ,https://wendex.xyz/posts/openwrt/9FirewallRule_hu_2a3fba9bc9b06779.webp 679w
+              
+            
+            
+              
+                ,https://wendex.xyz/posts/openwrt/9FirewallRule_hu_2a3fba9bc9b06779.webp 679w
+              
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="679"
+        height="92"
+        class="mx-auto my-0 rounded-md"
+        alt="Screenshot of the firewall rule in OpenWRT"
+        loading="lazy" decoding="async"
+        
+          src="https://wendex.xyz/posts/openwrt/9FirewallRule_hu_fae20187f43eccda.png" srcset="https://wendex.xyz/posts/openwrt/9FirewallRule_hu_2b354bd5072fcb94.png 330w,https://wendex.xyz/posts/openwrt/9FirewallRule_hu_fae20187f43eccda.png 660w
+          
+            ,https://wendex.xyz/posts/openwrt/9FirewallRule.png 679w
+          
+          
+            ,https://wendex.xyz/posts/openwrt/9FirewallRule.png 679w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    <figcaption class="text-center">The firewall rule I created to block traffic from specific devices after 9:00 PM</figcaption>
+  </figure>
+
+
+<p>This worked for a while, until I found out that this setup would only block the initiation of new connections. Existing connections—for example, if someone started playing on an online Minecraft server before 9:00 PM—would not be severed at 9:00.</p>
+<p>I discovered that severing these connections required running a Conntrack command to drop all existing connections to the IP addresses in question. I statically assigned the devices, installed Conntrack (System → Software), and created a Cron task from the web interface (System → Scheduled Tasks):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Drop all connections on specified devices at 9:00 PM Monday through Thursday.</span>
 </span></span><span class="line"><span class="cl"><span class="m">1</span> <span class="m">21</span> * * 1,2,3,4 conntrack -D -s 10.40.0.20 <span class="o">&amp;&amp;</span> conntrack -D -s 10.40.0.21 <span class="o">&amp;&amp;</span> conntrack -D -s 10.40.0.22
-</span></span></code></pre></div><p>Now everything was working how I wanted it to!</p>
-<p>But, as always, I wanted to make some improvements. It all worked great, but occasionally I would want to disable it to keep the interne on longer. Logging into the router to disable the rule was clunky, so I decided to create a Shortcut with Apple&rsquo;s Shortcuts app to make the job easier.</p>
-<p>I installed an awesome little package called luci-app-commands. This package allows you to create scripts, then run them by opening a URL on a locally connected device.</p>
+</span></span></code></pre></div><p>(Conntrack cannot use MAC addresses, so the addresses above are the static IPs I assigned to the devices I wanted to block.)</p>
+<p>Now everything was working how I wanted it to!</p>
+<h2 id="ios-shortcuts-integration" class="relative group">iOS Shortcuts Integration <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ios-shortcuts-integration" aria-label="Anchor">#</a></span></h2><p>But, as always, I wanted to make some improvements. It all worked great, but occasionally I would want to disable it to keep the internet on longer. Logging into the router to disable the rule was clunky, so I decided to create a Shortcut with Apple&rsquo;s Shortcuts app to make the job easier.</p>
+<p>I installed an awesome little package called <a href="https://openwrt.org/packages/pkgdata/luci-app-commands" target="_blank" rel="noreferrer">luci-app-commands</a>. This package allows you to create scripts, then run them by calling a URL on a locally connected device.</p>
+<p>Here&rsquo;s the script that disables the blocking rule:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># !/bin/sh</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Make sure the selected rule is one of the three custom rules I created</span>
+</span></span><span class="line"><span class="cl"><span class="k">case</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> in
+</span></span><span class="line"><span class="cl">    0<span class="p">|</span>1<span class="p">|</span>2<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        uci <span class="nb">set</span> firewall.@rule<span class="o">[</span><span class="nv">$1</span><span class="o">]</span>.enabled<span class="o">=</span><span class="m">0</span> <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">        uci commit firewall <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">        /etc/init.d/firewall reload
+</span></span><span class="line"><span class="cl">        <span class="p">;;</span>
+</span></span><span class="line"><span class="cl">    *<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;Error: Invalid firewall rule number.&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;;</span>
+</span></span><span class="line"><span class="cl"><span class="k">esac</span>
+</span></span></code></pre></div><p>Which is tied to a URL like this using the luci-app-commands package:</p>
+<p><code>https://openwrt.local/cgi-bin/luci/command/cfg0d3256?args=[Firewall Rule Number]</code></p>
+<p>The Firewall Rule Number is the index of the rule in the firewall configuration. I have mine set up this way so I can use the same URL and script to disable any of my custom rules. The script ensures that only the three firewall rules can be changed this way.</p>
 <p>I created a few different scripts, and created a Shortcut that allows me to disable or re-enable a traffic rule for the day.</p>
 
   
@@ -633,7 +748,7 @@
 <p>Of course, to make sure everything is reset for the next day, a simple cron task runs each morning:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Enable/disable custom rules that may have been disabled/enabled previously. Every morning at 6:00.</span>
 </span></span><span class="line"><span class="cl"><span class="m">0</span> <span class="m">6</span> * * * uci <span class="nb">set</span> firewall.@rule<span class="o">[</span>0<span class="o">]</span>.enabled<span class="o">=</span><span class="m">0</span> <span class="o">&amp;&amp;</span> uci <span class="nb">set</span> firewall.@rule<span class="o">[</span>1<span class="o">]</span>.enabled<span class="o">=</span><span class="m">1</span> <span class="o">&amp;&amp;</span>  uci <span class="nb">set</span> firewall.@rule<span class="o">[</span>2<span class="o">]</span>.enabled<span class="o">=</span><span class="m">1</span> <span class="o">&amp;&amp;</span> uci commit firewall <span class="o">&amp;&amp;</span> service firewall reload
-</span></span></code></pre></div><p>While the setup process is more extensive than I would have liked, I&rsquo;ve been quite happy with the OpenWRT! Being able to control the internet connection to specific devices faster and easier than even Google&rsquo;s Mesh WiFi system has been very handy!</p>
+</span></span></code></pre></div><p>While the setup process is more extensive than I would have liked, I&rsquo;ve been quite happy with OpenWRT! Being able to control the internet connection to specific devices faster and easier than even Google&rsquo;s Mesh WiFi system through Shortcuts has been very handy!</p>
 
       </div>
     </section>
