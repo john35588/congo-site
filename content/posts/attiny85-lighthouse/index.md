@@ -1,7 +1,7 @@
 ---
 title: 'Attiny85 Lighthouse'
 date: '2026-05-31'
-#lastmod: '2026-05-31'
+lastmod: '2026-11-20'
 draft: false
 ongoing: false
 description: "A simple soldering project using an ATtiny85 microprocessor"
@@ -25,7 +25,7 @@ Soldering was harder that I had thought it would be. The copper is very conducti
 
 Though I didn't have any one "plan" at the beginning, I didn't even think to use any sea glass until it was mostly soldered. I was thinking about how bright it would be and how I'd want something to soften the light when I remembered a pile of sea glass I had collected on my last trip to the beach! I carefully wrapped the edges of each piece in copper tape, then soldered them into place. They add color to the final design, and definitely soften the harsh light.
 
-The wood block is a section of 2x4 from the shed that I hollowed out with a router then routed and sanded the top and sides of. I wanted a more rugged look, so I didn't do anything to finish it.
+The wood block is a section of 2x4 from the shed that I hollowed out with a router then routed and sanded the top and sides of. I wanted a more rugged look (ie, I was being lazy), so I didn't do anything to finish it.
 
 {{< figure
     src="circuit-prototype.webp"
@@ -33,7 +33,7 @@ The wood block is a section of 2x4 from the shed that I hollowed out with a rout
     caption="Dialing in the circuit design and programming"
 >}}
 
-I'm no electrician, and I've never taken a class on circuitry, but I know how to get what I want from the internet if I'm determined enough. I had bought several ATtiny85 microprocessors months before because I thought the idea of a tiny 8-pin chip that can be programmed to do whatever you could imagine sounded amazing! When I received them, however, I didn't know how to use them or what to use them for, so, so they remained unused in my drawer until this project!
+I'm no electrician, and I've never taken a class on circuitry, but when I'm determined enough, I can get whatever I want from the internet. I had bought several ATtiny85 microprocessors months before because I thought the idea of a tiny 8-pin chip that can be programmed to do whatever you could imagine sounded amazing! When I received them, however, I didn't know how to use them or what to use them for, so they remained unused in my drawer until this project.
 
 I had a few things in mind I wanted this circuit to do:
 1. Use a potentiometer to dim the lighthouse's LED
@@ -42,6 +42,7 @@ I had a few things in mind I wanted this circuit to do:
 4. Be powered through USB
 
 I started by designing the circuit on a breadboard, then I wrote the program in the Arduino IDE. Here's the final code:
+
 ```c++
 const int mainLed = 0;    // Main LED pin with brightness adjustment
 const int led1 = 3;       // First indicator LED pin
@@ -137,9 +138,9 @@ In pseudocode, it basically has four states: off, on for 10 minutes, on for 20 m
 
 While in any of the "on" states, it takes the position of the potentiometer, and uses PWM to change the brightness of the main LED.
 
-My original plan was to build the circuit inside the lighthouse so you could see the circuit, but luckily I didn't overestimate myself that much, and I hid it all inside the base. It looks admittedly messy, but I assure you, it is pretty sturdy and reliable! I used small screws to anchor bits of wire into place, and after taking this picture, I used hot glue to cover many of the wires so they cannot be accidentally shorted out. 
+My original plan was to build the circuit inside the lighthouse so you could see the circuit, but luckily I didn't overestimate myself that much, and I hid it all inside the base. It looks admittedly messy, but I assure you, it is pretty sturdy and reliable! I used a sturdy wire, and secured it with small screws. After taking this picture, I used hot glue to cover many of the wires so they cannot be accidentally shorted out. 
 
-I had used a momentary pushbutton on the breadboard, but as I was putting everything together, I couldn't think of a way to get the pushbutton fit in with the rest of the project. I eventually decided to make my own "button" by having two pieces of copper wire connect when one is pressed. The tension of the wire itself pushes it back up. This actually worked out better because in the breadboard design, a single button press occasionally registered as two because the button would bounce when pressed.
+My breadboard circuit used a pushbutton, but as I was putting everything together, I couldn't think of a way to get the pushbutton to fit in with the rest of the project. I eventually decided to make my own "button" by having two pieces of copper wire connect when one is pressed. The tension of the wire itself pushes it back up. This actually worked out better because in the breadboard circuit, a single button press occasionally registered as two because the button would bounce when pressed.
 
 The potentiometer has a dial made of wood-fill filament that I printed after failing several times to make one out of a dowel. It turns out, it's pretty difficult to create a centered, straight hole in a dowel without a drill press.
 
@@ -149,9 +150,9 @@ The potentiometer has a dial made of wood-fill filament that I printed after fai
     caption="A bit messy, but working great!"
 >}}
 
-The final product looked and worked better than I thought it would! For the main LED, I used a flexible filament LED similar to the ones used in replica Edison bulbs. The entire lighthouse acts as a ground, and the single pole going up the middle to the LED carries the PWM signal from the ATtiny85.
+The final product looked and worked better than I thought it would (especially if you don't pick it up and look under it)! For the main LED, I used a flexible filament LED similar to the ones used in replica Edison bulbs. The entire lighthouse acts as a ground, and the single pole going up the middle to the LED carries the PWM signal from the ATtiny85.
 
-I really enjoyed the diversity of this project, there was soldering, programming, a bit of rudimentary woodworking, circuit design, and 3D printing! I already have a few ideas for other designs to try, but it will probably be a while before I get to it again.
+I really enjoyed the diversity of this project, I got to practice soldering, programming, a bit of rudimentary woodworking, circuit design, stained glass-work (this counts,right?), and 3D printing! I already have a few ideas for other designs to try, but it will probably be a while before I do a project like this again.
 
 {{< figure
     src="lighthouse-top.webp"
